@@ -24,12 +24,10 @@ public class Map implements Affichable{
 	
 	private final int TIMEUPDATECHUNK = 5;
 	private final int SIZECHUNK = 50;
-	private Seed s = new Seed(0.256);
+	private Seed s = new Seed(0.5);
 	public long upComp = 0;
 	
 	private Animal animalSelectionner = null;
-	
-	
 	
 	
 	public Map(int sizeX,int sizeY)
